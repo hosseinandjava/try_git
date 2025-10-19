@@ -6,6 +6,7 @@ public class Main {
 
         System.out.println(" This is the first try to use git");
         /* This line added in github */
+ /* This line added in netbeans */
     }
 
 }
