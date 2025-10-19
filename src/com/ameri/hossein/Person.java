@@ -1,23 +1,21 @@
-class Person{
-private String name;
-private String lastName;
-  
+package com.ameri.hossein;
 
-pulibc Person(String name,String lastName){
+public class Person {
 
-  this.name = name;
-  this.lastName = lastName;
-  
-}
+    private String name;
+    private String lastName;
 
+    public Person(String name, String lastName) {
 
-@override
-public String toString(){
+        this.name = name;
+        this.lastName = lastName;
 
-return  name + " " + lastName;
-}
+    }
 
+    @Override
+    public String toString() {
 
-
+        return name + " " + lastName;
+    }
 
 }
