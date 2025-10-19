@@ -12,18 +12,25 @@ public class Person {
 
     }
 
-    public void setName(String name){
+    public String getName() {
+        return name;
+    }
 
-   this.name = name;
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setName(String name) {
+
+        this.name = name;
 
     }
 
-    public void setlastName(String lastName){
+    public void setlastName(String lastName) {
 
         this.lastName = lastName;
     }
 
-        
     @Override
     public String toString() {
 
