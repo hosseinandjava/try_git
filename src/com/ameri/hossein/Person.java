@@ -12,6 +12,18 @@ public class Person {
 
     }
 
+    public void setName(String name){
+
+   this.name = name;
+
+    }
+
+    public void setlastName(String lastName){
+
+        this.lastName = lastName;
+    }
+
+        
     @Override
     public String toString() {
 
